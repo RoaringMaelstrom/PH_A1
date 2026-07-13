@@ -352,13 +352,13 @@ nav {
 
 .highlights-grid {
   width: 100%;
-  margin: 4rem auto 0;
+  margin: 3rem auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
   gap: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
 
 .highlight-card {
@@ -385,20 +385,35 @@ nav {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: #0D1B2A;
+}
+
+.footer-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  padding: 30px 30px 10px;
 }
 
-footer * {
-  color: #FFFFFF66;
-  font-size: smaller;
-  padding: 0px 20px;
-}
+
 
 .media-icons * {
-  font-size: x-large;
-  padding: 20px 10px;
+  color: #93C5FD;
+  font-size: 1.55rem;
+  padding: 0px 5px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-style: solid;
+  border-top-color: #FFFFFF80;
+  padding: 20px 30px 30px;
+}
+
+.footer-bottom *{
+  color: #FFFFFFCC;
 }
